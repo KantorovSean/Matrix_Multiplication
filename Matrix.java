@@ -1,3 +1,4 @@
+//made by Sean Kantorov 2/25/25
 class Matrix
 {
     //precondition, must be a matrix
