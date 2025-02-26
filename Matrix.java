@@ -39,5 +39,16 @@ class Matrix
         return new Matrix(m3);
     }
 
-
+    public void printMatrix()
+    {
+        for (double[] rows: mat)
+        {
+            System.out.print("{");
+            for (double column: rows)
+            {
+                System.out.print(column + ", ");
+            }
+            System.out.println("}");
+        }
+    }
 }
